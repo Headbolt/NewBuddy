@@ -32,7 +32,7 @@ User=$4
 Pass=$5
 # Grab the option of whether to enable this user for FileVault from JAMF variable #6 eg. YES / NO
 FV2=$6
-# Grab the options to set for this user from JAMF variable #7 eg. -UID 81 -admin -shell /usr/bin/false -home /private/var/CRYPTO
+# Grab the options to set for this user from JAMF variable #7 eg. -UID 81 -admin -shell /usr/bin/false -home /private/var/VAULT
 Options=$7
 # Grab the username for the admin user we will use to change the password from JAMF variable #8 eg. username
 adminUser=$8
